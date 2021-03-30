@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+        db1:
+                image: abc
+                build: .
+                ports:
+                        - "1020:1020"
+                        
+        db2:
+                image: abc
+                build: .
+                ports:
+                        - "1021:1021"
+                        
+        db3:
+                image: abc
+                build: .
+                ports:
+                        - "1022:1022"
