@@ -20,7 +20,7 @@ sudo docker build. -t abc
 
 3. Start the container using command:
 ```
-sudo docker run --name abc -p 4040:4040 -d abc
+sudo docker run --name abc -p 1020:1020 -d abc
 ```
 
 
